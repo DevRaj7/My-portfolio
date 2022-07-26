@@ -1,7 +1,9 @@
-{
+{  "homepage": "http://DevRaj7.github.io/My-portfolio", 
   "repository": "#",
   "license": "UNLICENSED",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "webpack --config ./bundler/webpack.prod.js",
     "dev": "webpack serve --config ./bundler/webpack.dev.js"
   },

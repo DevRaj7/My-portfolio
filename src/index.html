@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/55f2239c37.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital@1&family=Space+Mono&display=swap" rel="stylesheet">
+
+
+
+   <style>
+      .absolute{
+        position: absolute;
+      }
+      .text-white{
+        color: white;
+      }
+      .font-exo{
+        font-family: 'Exo 2', sans-serif;
+
+      }
+      .font-space-mono{
+        font-family: 'Space Mono', monospace;
+      }
+    </style>
+</head>
+<body>
+    
+    <canvas class="webgl"></canvas>
+    <div id="app">
+  <div
+    class="absolute text-white text-center"
+    style="top: 50%; transform: translate(-50%, -50%); left: 50%;"
+  >
+    <h1 class="font-space-mono text-sm uppercase tracking-wide">
+     Devraj Thakur
+    </h1>
+    <p class="font-exo text-4xl">
+        “The next big thing is the one that makes the last big thing usable.”
+    </p>
+    <button
+     
+      class=" border px-4 py-2 rounded-lg text-sm font-space-mono uppercase mt-8 hover:bg-white hover:text-gray-800 inline-block" id="travel"
+    >
+      View Work
+    </button>
+  </div>
+  <!-- Social -->
+  <div class="github social-icon">
+    <a href="https://github.com/DevRaj7" target="_blank"></a>
+    <i class="fa-brands fa-github-square"></i>
+  </div>
+
+  <div class="linkedin social-icon">
+    <a href="https://www.linkedin.com/in/thakurdev777" target="_blank"></a>
+    <i class="fa-brands fa-linkedin"></i>
+  </div>
+  <div id="root"></div>
+</div>
+
+      
+</body>
+</html>
